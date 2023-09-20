@@ -1,6 +1,5 @@
 class FuncoesLogicaProposicional {
   static implicacao(p: boolean, q: boolean): boolean {
-    // Implicação: Retorna true se p implica em q, caso contrário, retorna false.
     return !p || q;
   }
 }
