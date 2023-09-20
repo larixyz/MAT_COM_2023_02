@@ -1,7 +1,6 @@
 class FuncoesLogicaProposicional:
     @staticmethod
     def implicacao(p, q):
-        # Implicação: Retorna True se p implica em q, caso contrário, retorna False.
         return not p or q
 
 # Exemplo de uso:
