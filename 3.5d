@@ -1,0 +1,22 @@
+class FuncoesLogicaProposicional:
+    @staticmethod
+    def implicacao(p, q):
+        # Implicação: Retorna True se p implica em q, caso contrário, retorna False.
+        return not p or q
+
+    @staticmethod
+    def equivalencia(p, q):
+        # Equivalência: Retorna True se p e q são logicamente equivalentes, caso contrário, retorna False.
+        return p == q
+
+# Exemplo de uso:
+p = True
+q = False
+
+logica = FuncoesLogicaProposicional()
+
+resultado_implicacao = logica.implicacao(p, q)
+resultado_equivalencia = logica.equivalencia(p, q)
+
+print(f'Implicação: p -> q = {resultado_implicacao}')
+print(f'Equivalência: p <-> q = {resultado_equivalencia}')
