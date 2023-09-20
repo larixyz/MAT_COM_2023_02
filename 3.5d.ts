@@ -1,6 +1,5 @@
 class FuncoesLogicaProposicional {
   static equivalencia(p: boolean, q: boolean): boolean {
-    // Equivalência: Retorna true se p e q são logicamente equivalentes, caso contrário, retorna false.
     return p === q;
   }
 }
